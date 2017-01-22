@@ -44,7 +44,7 @@ body {
     overflow: hidden;
 }
 
-.button a {
+.button a{
     cursor: pointer;
     text-align: center;
     font: 12px/100% Tahoma, Geneva, sans-serif;
@@ -57,10 +57,7 @@ body {
     padding-top: 21.5px;
     padding-bottom: 21.5px;
     text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .3)
-}
-
-.button a {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
     color: #d7d7d7;
     background: #666666;
     border-right: solid 1px #000000;
