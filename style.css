@@ -1,0 +1,163 @@
+.imgryzenpc:hover {
+    width: 750px;
+    height: 500px;
+}
+
+
+root {
+    display: block;
+}
+
+.imgContainer {
+    float: left;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family: Tahoma;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: repeating-linear-gradient(red, white);
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+#menu_wrap {
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-right: 0px;
+    width: 449px;
+    height: 63px;
+    list-style-type: none;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.button a {
+    cursor: pointer;
+    text-align: center;
+    font: 12px/100% Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    position: relative;
+    min-width: 50px;
+    height: 20px;
+    float: left;
+    padding: 10px;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3)
+}
+
+.button a {
+    color: #d7d7d7;
+    background: #666666;
+    border-right: solid 1px #000000;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #666666), color-stop(100%, #000000));
+    background: linear-gradient(top, #666666 0%, #000000 100%);
+}
+
+.button a:hover,
+.button a:focus {
+    background: #444444;
+    background: gradient(linear, left top, left bottom, color-stop(0%, #444444), color-stop(100%, #000000));
+    background: linear-gradient(top, #444444 0%, #000000 100%);
+}
+
+.button a:active {
+    color: #666;
+    background: #000000;
+    background: gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #444444));
+    background: linear-gradient(top, #000000 0%, #444444 100%);
+   
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.backgroundimage {
+    background-image: url(http://www.publicdomainpictures.net/pictures/140000/velka/snow-angel-144334598992U.jpg);
+}
+
+
+figcaption {
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;
+    color: red;
+}
+
+p {
+    font-family: Tahoma;
+    text-align: center;
+}
+
+
+
+.displaymargin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imgryzenpc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.rgbtext{
+    animation-name: colorSwitch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}    
+
+@keyframes colorSwitch{
+    from {
+        color: rgb(255, 0, 0);
+    }
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
+
+div {
+    transform: scale(.9, 0.9);
+}
+
